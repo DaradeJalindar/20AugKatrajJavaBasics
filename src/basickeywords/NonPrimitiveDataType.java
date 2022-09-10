@@ -32,6 +32,9 @@ public class NonPrimitiveDataType {
 		System.out.println(20+2+"5"+2);//2252
 		
 		
+		System.out.println(40+40+"abc"+20+20);//80abc2020
+		
+		
 		
 	
 		

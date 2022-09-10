@@ -19,6 +19,28 @@ public class MathematicalOperations {
 		
 //														*				/
 		
+		int d = b-a;
+		
+//		Substraction
+		System.out.println(d);//30
+		
+		
+//	Multiplication
+		
+		int e = a*b;
+		
+		System.out.println(e);//1000
+		
+//		division
+		
+		double g = 50;
+		double h = 20;
+		
+		double f = g/h;
+		
+		System.out.println(f);//2.5
+		
+		
 		
 			
 	}
