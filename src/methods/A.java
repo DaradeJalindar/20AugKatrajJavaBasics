@@ -1,9 +1,7 @@
 package methods;
 
 public class A {
-	
-	
-	
+		
 	public void m1()
 	{
 		System.out.println("m1 is running");
@@ -33,8 +31,12 @@ public class A {
 		
 		nsm.addition();
 		
+		System.out.println("*******************************");
+		
+		C.main(args);
 		
 		
+
 	
 		
 		
