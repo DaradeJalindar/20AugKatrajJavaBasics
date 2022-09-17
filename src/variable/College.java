@@ -21,10 +21,7 @@ public class College {
 		s1.rollnum = 1;
 		
 		System.out.println(s1.rollnum);
-		
-		
-		
-		
+				
 	}
 	
 }
