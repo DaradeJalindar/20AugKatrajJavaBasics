@@ -16,7 +16,7 @@ public class B {
 		else
 		{
 			System.out.println("condition is not true");
-			System.out.println(i);
+		
 			System.out.println(a);
 		}
 		
