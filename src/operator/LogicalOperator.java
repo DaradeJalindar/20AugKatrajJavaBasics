@@ -30,7 +30,21 @@ public class LogicalOperator {
 	
 	
 	
+	int f = 10;
+	
+	int g = 10;
+	int h = 1;
+	int i = 10;
 		
+	
+	if((f==g) && (h==i)&&(f==h))
+	{
+		System.out.println("all sides are equal");
+	}
+	else
+	{
+		System.out.println("all sides are not equal");
+	}
 		
 		
 	}
