@@ -3,8 +3,10 @@ package constructor;
 public class Test2 {
 	
 	public Test2()
-	{
+	{	
+		this("calling one argument inside zero argument");
 		System.out.println("zero argument constructor");
+		
 	}
 	
 	public Test2(String s)
