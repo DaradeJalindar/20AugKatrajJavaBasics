@@ -2,6 +2,10 @@ package inheritance;
 
 public class Child extends Parent{
 	
+	static String s = "def";
+	
+	int i = 10;
+	
 	public void bike()
 	{
 		System.out.println("Bike method from Child class");
@@ -28,6 +32,16 @@ public class Child extends Parent{
 		farm();// method from grandparent class
 		
 		money();
+		
+		System.out.println(c.i);// i variable from child class - 10
+		
+		Parent p = new Parent();
+		
+		System.out.println(p.i);// i variable from parent class - 50
+		
+		System.out.println(Parent.s);//s variable from parent class- abc
+		
+		System.out.println(s);//s variable from child class-  def
 	}
 
 }
