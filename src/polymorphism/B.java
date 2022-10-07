@@ -11,7 +11,7 @@ public class B extends A {
 	
 	public int m2(int i)
 	{
-		System.out.println("m2 method with int argument");
+		System.out.println("m2 method from B class int argument");
 		return 10;
 	}
 	
@@ -39,8 +39,12 @@ public class B extends A {
 		
 		a.m4();// A class m4 method
 		
+		a.m2(0);// A class m2 method will  get execute
+		
 		
 		A a1 = new B();
+		
+		a1.m2(5);
 		
 		a1.m1();// B class m1 method
 		

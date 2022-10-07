@@ -9,7 +9,7 @@ public class A {
 	
 	public int m2(int i)
 	{
-		System.out.println("m2 method with int argument");
+		System.out.println("m2 method from A class int argument");
 		return 60;
 	}
 	
