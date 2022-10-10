@@ -16,6 +16,17 @@ public class Test2 {
 		
 //		t.m4();// Since m4 method is private hence we will be able to accces it inside only with in the class
 		
+		
+		A a = new A();
+		
+		a.m1();
+		
+		System.out.println(t.s);
+		
+		
+		
+		
+		
 	}
 
 }

@@ -2,6 +2,11 @@ package accessmodifiers;
 
 public class Test {
 	
+	public int i = 20;
+	
+	String s = "abc";
+	
+	private char c = '9';
 	
 	public void m1()
 	{
@@ -30,6 +35,29 @@ public class Test {
 		 Test t = new Test();
 		 
 		 t.m4();
+		 
+		 
+		 
+		 
+		 char c  = 'a';
+		 char cc = 'A';
+		 
+		 int i = c;
+		 
+		 System.out.println(i);
+		 
+		 System.out.println(t.c);
+		 
+		 
+		 int g = cc;
+		 
+		 System.out.println(g);
+		 
+		 
+//		 WAP to check the arrival of correct order of brackets:
+//		 '('  and ')'
+		 
+	
 		 
 	}
 	 
