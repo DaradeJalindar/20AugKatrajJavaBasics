@@ -57,6 +57,8 @@ public class Test {
 //		 WAP to check the arrival of correct order of brackets:
 //		 '('  and ')'
 		 
+		 A.m2();
+		 
 	
 		 
 	}

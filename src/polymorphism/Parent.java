@@ -2,6 +2,9 @@ package polymorphism;
 
 public class Parent {
 	
+	
+	final int i = 81;
+	
 	public void home()
 	{
 		System.out.println("Home method from parent class");
@@ -14,7 +17,9 @@ public class Parent {
 	
 	public void capital()
 	{
-		System.out.println("Capital method from parent class");
+		System.out.println(i);
+		
+	System.out.println("Capital method from parent class");
 	}
 	
 	
@@ -22,7 +27,7 @@ public class Parent {
 		System.out.println("Static furniture method from parent class");
 	}
 	
-	public void marry()
+	public final void marry()
 	{
 		System.out.println("Pre decided marry method from Parent class");
 	}

@@ -2,10 +2,7 @@ package polymorphism;
 
 public class Child extends Parent {
 	
-	public void marry()
-	{
-		System.out.println("Marry method from Child class");
-	}
+	
 	
 	public void bike()
 	{

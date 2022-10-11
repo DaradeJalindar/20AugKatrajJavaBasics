@@ -17,6 +17,9 @@ public class B extends A{
 		
 		System.out.println(b.g);
 		
+		System.out.println(A.o);
+		
+		m2();
 		
 		
 	}

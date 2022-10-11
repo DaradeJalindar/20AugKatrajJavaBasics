@@ -1,6 +1,8 @@
 package accesstest;
 
+import accessmodifiers.A;
 import accessmodifiers.Test;
+
 
 public class MethodVariableAccessTest {
 	
@@ -14,6 +16,8 @@ public class MethodVariableAccessTest {
 		
 		t.m1();
 		
+		
+	
 
 	
 		

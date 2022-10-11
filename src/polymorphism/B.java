@@ -26,6 +26,11 @@ public class B extends A {
 		System.out.println("m4 method of String argument from B class");
 	}
 	
+	public void m5()
+	{
+		System.out.println("default m5 method from B class");
+	}
+	
 	public static void main(String[] args) {
 		
 		B b = new B();
@@ -57,6 +62,7 @@ public class B extends A {
 		a1.m4();  // A class m4 method
 		
 		
+		a1.m2(80);// B class m2 method
 		
 		
 		
