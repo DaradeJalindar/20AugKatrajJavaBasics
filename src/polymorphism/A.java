@@ -24,11 +24,16 @@ public class A {
 		System.out.println("m4 method from A class");
 	}
 	
-		public	void m5()
-		{
+	public	void m5()
+	{
 			System.out.println("public m5 method from A class");
-		}
+	}
 		
+	
+	 void m6()
+	{
+		System.out.println("private void m6");
+	}
 	
 
 

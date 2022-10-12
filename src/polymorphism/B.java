@@ -31,6 +31,12 @@ public class B extends A {
 		System.out.println("default m5 method from B class");
 	}
 	
+	
+	protected void m6()
+	{
+		System.out.println("m6 method default");
+	}
+	
 	public static void main(String[] args) {
 		
 		B b = new B();
@@ -45,7 +51,7 @@ public class B extends A {
 		a.m4();// A class m4 method
 		
 		a.m2(0);// A class m2 method will  get execute
-		
+	
 		
 		A a1 = new B();
 		

@@ -42,6 +42,9 @@ public class Child extends Parent{
 		System.out.println(Parent.s);//s variable from parent class- abc
 		
 		System.out.println(s);//s variable from child class-  def
+		
+		
+		
 	}
 
 }

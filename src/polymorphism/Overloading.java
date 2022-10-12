@@ -20,17 +20,22 @@ public class Overloading {
 	}
 
 	
+	
+	
 	public static void m1(String s)
 	{
 		System.out.println("String argument static method");
 	}
 	
-	public int m1()
+	public final int m1()
 	{
 		System.out.println("method with return type");
 		
 		return 50;
 	}
+	
+	
+	
 	
 	
 	public static void main(String[] args) {
