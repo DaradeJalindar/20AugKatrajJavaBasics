@@ -6,6 +6,13 @@ public class A {
 	
 	int u = 20;
 	
+	public static void main(String[] args) {
+		A a = new A();
+		
+
+		
+	}
+	
 	
 
 }

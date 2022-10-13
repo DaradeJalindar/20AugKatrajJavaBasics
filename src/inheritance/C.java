@@ -2,17 +2,23 @@ package inheritance;
 
 public class C {
 	
+	private static C a = new C();
+	
+	
+	
 	private C()
 	{
-		System.out.println("Private c class constructor");
+		
 	}
 	
 	
-	public static void main(String[] args) {
+	
+	public static C getObject()
+	{
 		
-		
-		C c = new C();
-		
+		return a;
 	}
+	
+	
 
 }
