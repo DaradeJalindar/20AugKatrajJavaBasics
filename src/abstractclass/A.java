@@ -1,6 +1,7 @@
 package abstractclass;
 
-public abstract class A {
+
+	public  abstract class A {
 	
 	
 	public void viewProfile()
@@ -17,6 +18,15 @@ public abstract class A {
 	
 	
 	public abstract void addImage();
+	
+	public static void m1()
+	{
+		System.out.println("static m1 method");
+	}
+	
+	public static void main(String[] args) {
+		m1();
+	}
 	
 	
 }

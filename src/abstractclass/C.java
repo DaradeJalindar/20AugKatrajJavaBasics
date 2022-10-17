@@ -8,6 +8,8 @@ public class C extends B{
 		
 	}
 	
+	
+	
 	public static void main(String[] args) {
 		
 		
@@ -20,6 +22,10 @@ public class C extends B{
 		c.editProfile();
 		
 		c.deleteProfile();
+		
+		A a = new C();
+		
+		
 		
 		
 	}
