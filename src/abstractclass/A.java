@@ -28,5 +28,8 @@ package abstractclass;
 		m1();
 	}
 	
+
+	
+	
 	
 }
