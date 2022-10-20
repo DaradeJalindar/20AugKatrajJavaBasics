@@ -9,6 +9,8 @@ public class StaticVariable {
 	
 	static String s = "John";
 	
+	
+	
 	public static void main(String[] args) {
 		
 		System.out.println(a);//20
