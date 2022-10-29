@@ -42,6 +42,32 @@ public class ConceptOfString {
 		boolean iscontentsame= s4.equals(s7);
 		
 		System.out.println(iscontentsame);//true
+		
+		
+		
+		System.out.println("*********************************************");
+	
+		
+//		String is called as Immutable class Original String value doesnt get change when we perform the operation on the String Value
+	
+		String s8 = "Ahmed";
+		
+		s8.concat("nagar");
+		
+		System.out.println(s8);
+		
+		
+		System.out.println("*********************************************");
+		
+//		StringBuffer is called as mutable class Original String value get change when we perform the operation on the String Value	
+		
+		StringBuffer sb  = new StringBuffer("Ahmed");
+		
+		sb.append("nagar");
+		
+		System.out.println(sb);
+		
+		
 	}
 
 }

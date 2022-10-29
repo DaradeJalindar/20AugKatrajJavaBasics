@@ -29,7 +29,7 @@ public class MethodsInString {
 		
 		int charcount= s3.length();
 		
-		for(int i=0; i<charcount-1; i++)
+		for(int i=0; i<charcount; i++)
 		{
 			char s4 = s3.charAt(i);
 			
@@ -81,7 +81,9 @@ public class MethodsInString {
 		
 		System.out.println(s13);//Velocity corporate
 		
-//		WAP to print the count of a character inside a string- philadelphia
+
+		
+		
 
 		System.out.println("*************************************");		
 
@@ -94,6 +96,7 @@ public class MethodsInString {
 		
 		System.out.println(s15);//puram
 		
+		System.out.println("*************************************");
 		
 //		7. subString (int beginindex, int endindex)
 		
@@ -101,12 +104,99 @@ public class MethodsInString {
 		
 		System.out.println(s16);//Narmada
 		
+//		WAP to print the count of a character inside a string- philadelphia
 		
 		
+		System.out.println("*************************************");		
+			
+			String s17 = "pahialadealphia";
+			int count = 0;
+			for(int i=0; i<s17.length(); i++ )
+			{
+				
+			char s18 = s17.charAt(i);
+			
+			if(s18 == 'a')
+			{
+				count++;
+			}
+				
+				
+			}
+			
+			System.out.println(count);
+			System.out.println("*************************************");			
+//		9. toLowerCase()
+			
+			String s19 = "VELOCITy";
+			
+			String s20 = s19.toLowerCase();
+			
+			System.out.println(s20);//velocity
+			System.out.println("*************************************");			
+//		10. toUpperCase()
+			
+			String s21 = "VeloCiTy";
+			
+		String s22 = s21.toUpperCase();
+			
+		System.out.println(s22);//VELOCITY
 		
+		System.out.println("*************************************");		
+		
+//		11. replace(char oldchar, char newchar)
+
+		String s23 = "abcdef";
+		
+		String s24 = s23.replace('b', 'd');
+		
+		System.out.println(s24);//adcdef
+		
+		System.out.println("*************************************");		
+//		12. replace(String old, String new)
+		
+		
+		String s25 = "Punecity";
+		
+		String s26 = s25.replace("city", "mahanagar");
+		
+		System.out.println(s26);//Punemahanagar
+		System.out.println("*************************************");			
+//	WAP to remove all the spaces from the String- This is string
+		
+//	13. trim()
+		
+		String s28 = "      this is        a String     ";
+		
+		String s29 = s28.trim();
+		
+		System.out.println(s29);//this is a String
+		
+//	WAP to remove the unnecessary spaces in between the string - "      this is        a String     "	
+		System.out.println("*************************************");	
+		
+//	14. contains(String s)
+		
+		String s30 = "Vimannagar";
+		
+		boolean s31 = s30.contains("ngar");
+		
+		System.out.println(s31);//true
+
+		System.out.println("*************************************");
+		
+//		15. startsWith(String s):
+		
+		String s32 = "Mumbai";
+		
+		boolean s33 = s32.startsWith("mu");
+		
+		System.out.println(s33);
 		
 		
 		
 	}
+	
+	
 
 }
