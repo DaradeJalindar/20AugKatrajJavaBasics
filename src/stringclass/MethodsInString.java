@@ -164,6 +164,16 @@ public class MethodsInString {
 		System.out.println("*************************************");			
 //	WAP to remove all the spaces from the String- This is string
 		
+		String s36 = "This is string";
+		
+		String s37 = s36.replace(" ", "");
+		
+		System.out.println(s37);//Thisisstring
+		System.out.println("*************************************");
+		
+		
+		
+		
 //	13. trim()
 		
 		String s28 = "      this is        a String     ";
@@ -172,7 +182,9 @@ public class MethodsInString {
 		
 		System.out.println(s29);//this is a String
 		
-//	WAP to remove the unnecessary spaces in between the string - "      this is        a String     "	
+//	WAP to remove the unnecessary spaces in between the string - "      this is        a String     "
+		
+		
 		System.out.println("*************************************");	
 		
 //	14. contains(String s)
@@ -192,6 +204,17 @@ public class MethodsInString {
 		boolean s33 = s32.startsWith("mu");
 		
 		System.out.println(s33);
+		
+		System.out.println("*************************************");
+		
+//		16. endsWith(String s):
+		
+		String s34 = "ghijkl";
+		
+		boolean s35 = s34.endsWith("kl");
+		
+		System.out.println(s35);//true
+		
 		
 		
 		
