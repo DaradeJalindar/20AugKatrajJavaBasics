@@ -215,10 +215,55 @@ public class MethodsInString {
 		
 		System.out.println(s35);//true
 		
+		System.out.println("*************************************");
 		
 		
+//		17. split(String s):
 		
+		String s38 = "This is a String";
+		
+		
+	String[] s39	= s38.split(" ");
+	
+	for(String s40:s39)
+	{
+		System.out.println(s40);
 	}
+	
+	System.out.println("*************************************");
+	
+//	18. reverse()
+	
+	StringBuffer sb = new StringBuffer("Australia");
+	
+	sb.reverse();
+	
+	System.out.println(sb);//ailartsuA
+	
+	
+	
+	
+//	WAP to print every word of a String in reverse order - This is a String --> String a is This
+	
+	
+//	19. replaceAll(String regex)
+	
+	String s41 = "Spring";
+	
+	String s42 = s41.replaceAll("[A-Z]", "a");
+	
+	System.out.println(s42);//apring
+	
+	
+	
+	
+	}
+	
+	
+
+	
+	
+	
 	
 	
 

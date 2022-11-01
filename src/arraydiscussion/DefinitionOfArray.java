@@ -32,10 +32,17 @@ public class DefinitionOfArray {
 			
 //			WAP to add the elements which are even in the array
 			
+//			WAP to sort an array in ascending / descending order
+			
 			
 			int size = a.length;
 			
 			System.out.println(size);
+			
+			
+//	WAP to find out the triplets which got add to form 11
+			
+			int v[] = {5, 5, 1,2, 3, 3} ;
 			
 			
 			
