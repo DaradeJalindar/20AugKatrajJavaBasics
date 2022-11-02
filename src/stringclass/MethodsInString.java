@@ -1,10 +1,7 @@
 package stringclass;
 
 public class MethodsInString {
-	
 
-	
-	
 	public static void main(String[] args) {
 //	1. 	length()
 		
@@ -242,9 +239,22 @@ public class MethodsInString {
 	
 	
 	
-	
+	System.out.println("*************************************");
 //	WAP to print every word of a String in reverse order - This is a String --> String a is This
 	
+	String s43 = "This is a String";
+	
+	String[] s45 = s43.split(" ");
+	
+	int s46 = s45.length;
+	
+	for(int i=(s46-1); i>=0; i--)
+	{
+		System.out.println(s45[i]);
+	}
+	
+	
+	System.out.println("*************************************");
 	
 //	19. replaceAll(String regex)
 	
@@ -253,6 +263,124 @@ public class MethodsInString {
 	String s42 = s41.replaceAll("[A-Z]", "a");
 	
 	System.out.println(s42);//apring
+	
+	System.out.println("*************************************");
+	
+	String s47 = "Denver";
+	
+	String s48 = s47.replaceAll("[^A-Z]", "!");
+	
+	System.out.println(s48);//D!!!!!
+	
+	String s49 = s41.replaceAll("[A-Ea-p]", "#");
+	
+	System.out.println(s49);//S#r###
+	
+	System.out.println("*************************************");
+	
+	String s50 = "Acc23en@t^ur#e";
+	
+	String s51 = s50.replaceAll("[^A-Za-z]", "");
+	
+	System.out.println(s51);//Accenture
+	
+	System.out.println("*************************************");
+	
+	String s52 = s50.replaceAll("[A-Za-z0-9]", "");
+	
+	System.out.println(s52);//@^#
+	
+	System.out.println("*************************************");
+	//20. toCharArray():
+	
+	String s53 = "pennsylvania";
+	
+	char[] s54 = s53.toCharArray();
+	
+	for(char cc :s54)
+	{
+		System.out.println(cc);
+	}
+	
+//	Conversion of NonPrimitive to Primitive data type
+	
+	String s55 = "40";
+	
+	int s56 = Integer.parseInt(s55);
+	
+	System.out.println(s56+2);//12
+	
+	String s57 = "false";
+	
+	boolean s58 = Boolean.parseBoolean(s57);//false
+	
+	System.out.println(s58);
+	
+	String s59 = "45.65";
+	
+	double s60 = Double.parseDouble(s59);
+	
+	System.out.println(s60);//45.65
+	
+	
+//	Conversion of Primitive to NonPrimitive data type
+	
+	
+	int s61 = 80;
+	
+	String s62 = String.valueOf(s61);
+
+	System.out.println(s62+2);//802
+	
+	
+	double s63 = 85.23;
+	
+	String s64 = String.valueOf(s63);
+	
+	System.out.println(s64);//85.23
+	
+	
+	
+	char s65 = 'c';
+	
+	String s66	= String.valueOf(s65);
+
+	System.out.println(s66);//c
+	
+	System.out.println("*************************************");
+	
+	char s67 = 'a';
+	
+	boolean s68 = Character.isAlphabetic(s67);
+	
+	System.out.println(s68);// true
+	
+	
+	char s69 = '9';
+	
+	boolean s70 = Character.isDigit(s69);
+	
+	System.out.println(s70);//true
+	
+	
+//	WAP to count the total number of numeric characters present in a String- "Gu35ya32n2a"
+	
+	
+//	WAP to count the number of Capital letters in a String - "HelLo"
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
