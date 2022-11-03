@@ -361,12 +361,65 @@ public class MethodsInString {
 	boolean s70 = Character.isDigit(s69);
 	
 	System.out.println(s70);//true
-	
+	System.out.println("*************************************");
 	
 //	WAP to count the total number of numeric characters present in a String- "Gu35ya32n2a"
 	
+	String s71 = "Gu35ya32n2a";
 	
-//	WAP to count the number of Capital letters in a String - "HelLo"
+	int countt =0;
+	for(int i =0; i<s71.length(); i++)
+	{
+		char s72 = s71.charAt(i);
+		
+		if(Character.isDigit(s72))
+		{
+			countt++;
+			
+		}
+	}
+	
+	System.out.println("Total numeric characters are: "+countt);
+	
+	System.out.println("*************************************");
+
+	//	WAP to count the number of Capital letters in a String - "HelLo"
+	
+	
+	String s73= "HelLO";
+	
+	int counttt = 0;
+	for(int i =0; i<s73.length(); i++)
+	{
+		char s74 = s73.charAt(i);
+		
+		int value = s74;
+		
+		if(value>=65 && value<=90)
+		{
+			counttt++;
+		}
+		
+	}
+	
+	System.out.println("Total number of capital letters are :"+counttt);
+	
+	
+//	compareTo(String s)
+	
+	String s75 = "abc";		
+	
+	String s76 = "abcbbb";		
+	
+	
+	int s77= s75.compareTo(s76);
+	
+	
+	System.out.println(s77);
+	
+	
+	
+	
 	
 
 	

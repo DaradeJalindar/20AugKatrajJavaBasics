@@ -34,6 +34,10 @@ public class DefinitionOfArray {
 			
 //			WAP to sort an array in ascending / descending order
 			
+//			WAP to find the missing number from an array: - {5, 7, 4, 3, 8}
+			
+//			WAP to separate 1 and 0 inside an array - {1, 0, 1, 1, 0, 1, 0, 0}
+			
 			
 			int size = a.length;
 			
@@ -45,7 +49,20 @@ public class DefinitionOfArray {
 			int v[] = {5, 5, 1,2, 3, 3} ;
 			
 			
-			
+			for(int i=0; i<v.length; i++)
+			{
+				for(int j=i+1; j<v.length; j++)
+				{
+					for(int k=j+1; k<v.length; k++)
+					{
+						if(v[i] + v[j]+v[k] ==11)
+						{
+							System.out.println(v[i]+" "+ v[j]+" "+v[k]);
+						}
+						
+					}
+				}
+			}
 			
 		
 	}
