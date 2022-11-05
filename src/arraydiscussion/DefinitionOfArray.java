@@ -38,6 +38,14 @@ public class DefinitionOfArray {
 			
 //			WAP to separate 1 and 0 inside an array - {1, 0, 1, 1, 0, 1, 0, 0}
 			
+//			WAP to find out the common elements from the arrays:
+			
+//			int a[] = {1,8,5,20,6};
+//			
+//			int b[] = {23, 8, 85, 24,6};
+//			
+//			int c[] = {89,9, 62, 8,6};
+			
 			
 			int size = a.length;
 			
