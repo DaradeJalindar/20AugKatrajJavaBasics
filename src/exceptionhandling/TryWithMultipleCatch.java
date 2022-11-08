@@ -28,12 +28,22 @@ public class TryWithMultipleCatch {
 	
 		}
 		
+		catch(NullPointerException e)
+		{
+			System.out.println("Arithmetic catch block is executing ");
+		}
+		
 		catch(ArrayIndexOutOfBoundsException e)
 		{
 			System.out.println("Array index catch block is executing ");
 			String message = e.getMessage();
 			
 			System.out.println(message);
+		}
+		
+		catch(RuntimeException e)
+		{
+			System.out.println("Arithmetic catch block is executing ");
 		}
 		
 		System.out.println("End of the code normally");
