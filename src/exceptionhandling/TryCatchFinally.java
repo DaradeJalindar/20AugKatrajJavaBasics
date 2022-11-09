@@ -20,6 +20,8 @@ public class TryCatchFinally {
 		{
 			System.out.println("Exception arrived");
 			
+			w.getMessage();
+			
 		}
 		
 		finally
