@@ -65,6 +65,7 @@ public class ArrayListDisc {
 	
 	al2.add("Delhi");
 	
+	
 	System.out.println(al2);//[def, abc, def, Pune, Mumbai, Delhi]
 	
 	boolean ispresent = al2.contains("xyz");
@@ -84,7 +85,8 @@ public class ArrayListDisc {
 	
 	System.out.println(al2);//[def, abc, def, Bengaluru, Mumbai, Delhi]
 	
-	
+	al2.add(null);
+	al2.add(null);
 //	to iterate the arraylist:
 	
 	

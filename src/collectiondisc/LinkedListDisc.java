@@ -13,6 +13,12 @@ public class LinkedListDisc {
 		ll.add('a');
 
 		ll.add('b');
+		
+		ll.add(null);
+		
+		ll.add(null);
+		
+		ll.add(null);
 
 		ll.remove(0);
 
@@ -23,6 +29,14 @@ public class LinkedListDisc {
 	Character value = ll.get(1);
 	
 	System.out.println(value);
+	LinkedList<String> ll2 = new LinkedList<String>();
+	
+	ll2.add(null);
+	ll2.add(null);
+	System.out.println(ll2);
+	
+	
+	
 
 	}
 
